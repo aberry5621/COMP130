@@ -23,7 +23,7 @@ int main()
     cout << "Enter length of investment (years): ";
     cin >> lengthOfInvestment;
     //P
-    monthlyInterestRate = (annualInterestRate / 12)/100;
+    monthlyInterestRate = (annualInterestRate / 12)/100.00;
     compoundValue = lengthOfInvestment * 12;
     cout << "Monthly interest rate readout: " << monthlyInterestRate << endl;
     futureInvestmentValue = investmentAmount * pow(1 + monthlyInterestRate,compoundValue);
