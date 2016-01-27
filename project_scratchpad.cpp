@@ -4,17 +4,18 @@
 //Purpose: Basic cpp file for scratch tests
 #include <iostream>
 using namespace std;
+#include <cmath>
 int main()
 {
     // numberic data var
-    double myNumber = 0.0;
-    double twiceMyNumber = 0.0;
+    int seconds = 0.0;
+    int modulod = 0.0;
     //I
-    cout << "Enter a number: ";
-    cin >> myNumber;
+    cout << "Enter seconds: ";
+    cin >> seconds;
     //P
-    twiceMyNumber = myNumber * 2;
+    modulod = seconds % 5;
     //0
-    cout << " Twice your number is: " << twiceMyNumber;
+    cout << "Modulod number is: " << modulod << endl;
     return 0;
 }
